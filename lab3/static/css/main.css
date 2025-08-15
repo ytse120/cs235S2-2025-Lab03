@@ -1,7 +1,52 @@
-.welcome-block {
-    border-color: black;
-    border-width: medium;
+body {
+    margin-left: 200px;
+    padding: 20px;
 }
+
+.welcome-block {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.intro-content {
+    position: relative;
+}
+
+.intro-content img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.intro-content p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: darkblue;
+    background-color: white;
+}
+
+.recipe-details {
+    background-color: lightgrey;
+}
+
+.recipe-details p {
+    text-align: justify;
+}
+
+.recipe-block {
+    width: 150px;
+    border-style: solid;
+    border-radius: 5px;
+    border-inline-width: 2px;
+    border-color: black;
+}
+
+.recipe-block img {
+    width: 150px;
+}
+
 
 h1 {
     color: red;
